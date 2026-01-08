@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.strength-bar {
+  height: 12px;
+  border-radius: 6px;
+}
+
+.criteria li {
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+}
+
+.valid {
+  color: #198754;
+}
+
+.invalid {
+  color: #dc3545;
+}
